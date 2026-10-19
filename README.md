@@ -1,4 +1,4 @@
-# Yucheng Zhao · Research Portfolio
+# Yucheng Zhao · Academic Homepage
 
 **Robotics · Perception · Expressive systems**
 
@@ -22,7 +22,7 @@ The website is plain HTML, CSS and a small local JavaScript file, with no build 
 
 ## Update the portfolio
 
-- Edit `index.html` for the introduction, education and selected-work cards.
+- Edit `index.html` for the introduction, education and project rows grouped by year.
 - Edit `projects/*.html` for the project descriptions and evaluation context.
 - Put new approved demo files in `assets/media/`; include a descriptive filename, poster, caption and source credit.
 - Keep unreleased code, checkpoints, original slide decks and private contact information out of this repository.
