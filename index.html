@@ -23,7 +23,7 @@
         <h1>Yucheng Zhao</h1>
         <p>Final-year undergraduate, Telecommunications Engineering<br>
         Xi’an Jiaotong-Liverpool University<br>
-        B.Eng., 2023–2027 (expected)</p>
+        B.Eng., 2023–2027 (expected) · University of Liverpool degree</p>
         <p class="profile-links"><a href="mailto:Yucheng.Zhao23@student.xjtlu.edu.cn">Email</a> / <a href="https://github.com/zyc-chenli">GitHub</a> / <a href="#research">Selected Projects</a></p>
       </div>
       <img class="portrait" src="assets/profile.jpg" alt="Yucheng by a lake" width="716" height="716">
@@ -41,9 +41,9 @@
       <article class="project-row">
         <a class="project-thumb talking-thumb" href="projects/talking-head.html"><img src="assets/media/text-timed-control.jpg" alt="Neutral reference, baseline and text-controlled talking-head output" width="1536" height="512"></a>
         <div class="project-info">
-          <h3><a href="projects/talking-head.html">Text-guided Fine-grained Facial Motion Control</a></h3>
-          <p class="project-context">Undergraduate Researcher · XJTLU · Mar 2026–present</p>
-          <p>Developed text conditioning for <strong>facial region, intensity, and timing</strong> in pretrained talking-head generation. A controlled study achieved <strong>97.3% positive target-AU response</strong> and <strong>90.7% monotonic intensity response</strong> across 75 AU–identity conditions.</p>
+          <h3><a href="projects/talking-head.html">Text-guided Local Expression Control for Talking Heads</a></h3>
+          <p class="project-context">Undergraduate Researcher · XJTLU · Prof. Kaizhu Huang’s group · Mar 2026–present</p>
+          <p>Developed text-guided <strong>global emotion and local AU control</strong>, using layer-wise emotion and intensity conditioning and Blendshape supervision to connect facial motion with action semantics. A controlled study achieved <strong>97.3% positive target-AU response</strong> and <strong>90.7% monotonic intensity response</strong> across 75 AU–identity conditions.</p>
           <p class="project-links">[<a href="projects/talking-head.html">Project Page</a>] [<a href="projects/talking-head.html#demos">Video Demos</a>] [<a href="projects/talking-head.html#evaluation">Evaluation</a>]</p>
         </div>
       </article>
@@ -52,37 +52,76 @@
       <article class="project-row">
         <a class="project-thumb face-thumb" href="projects/biomimetic-face.html"><img src="assets/media/facial-robot.jpg" alt="Assembled biomimetic robot head and its mechanical linkages" loading="lazy"></a>
         <div class="project-info">
-          <h3><a href="projects/biomimetic-face.html">Biomimetic Facial Robot: Mechanisms and Expression Control</a></h3>
-          <p class="project-context">Undergraduate Researcher · XJTLU · Oct 2025–present</p>
-          <p>Refined <strong>cheek and jaw linkages</strong> and facial-skin mould CAD on an adapted Morpheus platform. Implemented per-actuator position commands and coordinated motion sequences for facial-expression poses.</p>
-          <p class="project-links">[<a href="projects/biomimetic-face.html">Project Page</a>]</p>
+          <h3><a href="projects/biomimetic-face.html">Biomimetic Facial Robot Design and Control</a></h3>
+          <p class="project-context">Undergraduate Researcher · XJTLU · Advisor: Jie Sun · Oct 2025–present</p>
+          <p>Reworked <strong>cheek linkages and upper and lower jaw connections</strong>, revised facial-skin mould CAD, and supported assembly of an adapted Morpheus head. Implemented per-actuator position commands and coordinated motion sequences for facial-expression poses.</p>
+          <p class="project-links">[<a href="projects/biomimetic-face.html">Project Page</a>] [<a href="projects/biomimetic-face.html#gallery">Image Gallery</a>]</p>
         </div>
       </article>
       <article class="project-row">
         <a class="project-thumb hand-thumb" href="projects/tactile-hand.html"><img src="assets/media/tactile-digit-demo.jpg" alt="Tactile sensor pad and dexterous robotic hand during the physical demonstration" width="540" height="960" loading="lazy"></a>
         <div class="project-info">
-          <h3><a href="projects/tactile-hand.html">Tactile Digit Recognition and Dexterous Hand Control</a></h3>
-          <p class="project-context">Research Assistant · HKUST (Guangzhou) · Jun–Sep 2025</p>
-          <p>Built a <strong>ROS 2 perception-to-action pipeline</strong> connecting a 5 × 5 pressure array, a PyTorch CNN and Linker Hand gesture control. Demonstrated tactile digit input driving corresponding physical hand poses.</p>
-          <p class="project-links">[<a href="projects/tactile-hand.html">Project Page</a>] [<a href="projects/tactile-hand.html#demo">Video Demo</a>] [<a href="https://github.com/zyc-chenli/Linker_Hand-Pressure_sensor">Code</a>]</p>
+          <h3><a href="projects/tactile-hand.html">Tactile Perception, Dexterous Hand Control and Humanoid Locomotion</a></h3>
+          <p class="project-context">Research Assistant · HKUST (Guangzhou) · Advisor: Yiding Ji · Jun–Sep 2025</p>
+          <p>Built a <strong>ROS 2 tactile-to-gesture pipeline</strong> connecting a 5 × 5 pressure array, neural digit recognition and Linker Hand L10 joint commands. Also trained <strong>Unitree G1 locomotion policies in Isaac Lab</strong>, adding foot-contact observations and refining reward terms.</p>
+          <p class="project-links">[<a href="projects/tactile-hand.html">Project Page</a>] [<a href="projects/tactile-hand.html#demo">Video Demo</a>] [<a href="projects/tactile-hand.html#humanoid">G1 Simulation</a>] [<a href="https://github.com/zyc-chenli/Linker_Hand-Pressure_sensor">Code</a>]</p>
         </div>
       </article>
     </section>
 
-    <section class="academic-section">
-      <h2>Engineering and Independent Study</h2>
+    <section id="projects" class="academic-section">
+      <h2>Engineering Projects</h2>
       <article class="project-row compact-row">
-        <div class="project-thumb soil-thumb"><img src="assets/media/soil-monitor.jpg" alt="Outdoor test of the soil-monitoring electronics and sensors" loading="lazy"></div>
+        <a class="project-thumb soil-thumb" href="projects/soil-monitor.html"><img src="assets/media/soil-monitor.jpg" alt="Outdoor test of the soil-monitoring and irrigation electronics" loading="lazy"></a>
         <div class="project-info">
-          <h3>Soil Environment Monitoring Instrument</h3>
-          <p class="project-context">MEC202 Team Project · XJTLU · 2026</p>
-          <p>Contributed PCB design and embedded firmware, including ADC sensor integration, wireless communication and hardware debugging.</p>
+          <h3><a href="projects/soil-monitor.html">Soil and Environmental Monitoring with Automatic Irrigation</a></h3>
+          <p class="project-context">PCB and Firmware Developer · MEC202 · Mar–May 2026</p>
+          <p>Developed a <strong>three-board Renesas MCU architecture</strong>, integrated sensor and ADC firmware, and supported 433 MHz telemetry, power-rail checks and prototype debugging.</p>
+          <p class="project-links">[<a href="projects/soil-monitor.html">Project Page</a>]</p>
         </div>
       </article>
-      <div class="study-notes">
-        <p><strong>TokenHSI reproduction.</strong> A curated fork with an experiment map and setup notes for studying physics-based human–scene interaction. [<a href="https://github.com/zyc-chenli/TokenHSI-Reproduction">Code and Notes</a>] [<a href="https://liangpan99.github.io/TokenHSI/">Original Project</a>]</p>
-        <p><strong>Additional study.</strong> CS285: Deep Reinforcement Learning; Modern Robotics: Mechanics, Planning, and Control.</p>
+      <div class="project-summary">
+        <h3>Smart Door with Human Detection and Fire Warning</h3>
+        <p class="project-context">Group Leader · MEC104 · Apr–Jun 2025</p>
+        <p>Integrated PIR, ultrasonic, temperature and gas sensing with an Arduino controller, servo-driven door and warning/display modules. Contributed PCB design, hardware integration and interaction testing.</p>
       </div>
+      <div class="project-summary">
+        <h3>Planet Catalogue System</h3>
+        <p class="project-context">Group Leader · CPT109 · Oct–Dec 2024</p>
+        <p>Built a menu-driven catalogue in C with administrator and observer interfaces, supporting creation, editing and retrieval of seven planetary attributes.</p>
+      </div>
+    </section>
+
+    <section id="education" class="academic-section">
+      <h2>Education and Awards</h2>
+      <p><strong>Xi’an Jiaotong-Liverpool University</strong> · B.Eng. in Telecommunications Engineering, expected July 2027, with a degree awarded by the University of Liverpool.</p>
+      <p class="education-detail">Year 2 rank: <strong>4/97</strong> · Year 3 rank: <strong>5/97</strong> · WES GPA: <strong>3.82/4.00</strong></p>
+      <p><strong>University Academic Achievement Award (top 10%)</strong>, 2025–2026 and 2026–2027.</p>
+      <p class="education-detail"><strong>Selected coursework:</strong> Digital Signal Processing; Continuous and Discrete Time Signals and Systems; Microprocessor Systems; Instrumentation and Control System; CMOS Digital Integrated Circuits; C Programming and Software Engineering; Engineering Mathematics.</p>
+      <p class="education-detail"><strong>Year 4, in progress:</strong> Digital System Design with HDL; Information Theory and Data Communications; Analogue and Digital Communications II; Applied Electromagnetics and Antennas.</p>
+    </section>
+
+    <section id="coursework" class="academic-section">
+      <h2>Independent Study and Coursework Projects</h2>
+      <div class="project-summary">
+        <h3>CS285: Deep Reinforcement Learning</h3>
+        <p class="project-context">Independent study of UC Berkeley course materials · Jun–Aug 2025</p>
+        <p>Completed programming assignments on behavioural cloning and DAgger, policy gradients, Q-learning and actor–critic methods, model-based RL, exploration and offline RL; analysed policy returns and learning behaviour in the provided environments.</p>
+      </div>
+      <div class="project-summary">
+        <h3>Modern Robotics: Mechanics, Planning, and Control</h3>
+        <p class="project-context">Independent online coursework · Jun–Aug 2025</p>
+        <p>Implemented product-of-exponentials forward kinematics, numerical inverse kinematics and Jacobian-based velocity control, alongside time-scaled trajectory and feedback-control exercises in Python.</p>
+      </div>
+      <p class="study-notes"><strong>TokenHSI reproduction.</strong> A curated fork with an experiment map and setup notes for studying physics-based human–scene interaction. [<a href="https://github.com/zyc-chenli/TokenHSI-Reproduction">Code and Notes</a>] [<a href="https://liangpan99.github.io/TokenHSI/">Original Project</a>]</p>
+    </section>
+
+    <section id="skills" class="academic-section technical-skills">
+      <h2>Technical Skills</h2>
+      <p><strong>Programming:</strong> Python, C/C++, MATLAB, ARM assembly.</p>
+      <p><strong>Learning and vision:</strong> PyTorch, Transformers, facial AUs, Blendshape supervision, differentiable rendering.</p>
+      <p><strong>Robotics and control:</strong> ROS 2, Isaac Lab/Sim, robot kinematics, trajectory planning, feedback control.</p>
+      <p><strong>Hardware and tools:</strong> Arduino, Renesas MCUs, PCB design, CAD modelling, embedded servo control, Linux, Git and Conda.</p>
     </section>
 
     <footer id="contact" class="academic-footer">

@@ -12,7 +12,11 @@ A concise showcase of my research and engineering work at XJTLU and HKUST (Guang
 | --- | --- | --- |
 | Text-guided facial motion | Regional facial actions, strength and timing control | [Video demos](https://zyc-chenli.github.io/projects/talking-head.html) |
 | Tactile perception & dexterous hand | ROS 2 sensing, CNN digit recognition and gesture control | [Hardware demo](https://zyc-chenli.github.io/projects/tactile-hand.html) · [Source](https://github.com/zyc-chenli/Linker_Hand-Pressure_sensor) |
-| Biomimetic facial robot | Cheek/jaw mechanisms, skin-mould CAD and actuator communication | [Project overview](https://zyc-chenli.github.io/projects/biomimetic-face.html) |
+| Biomimetic facial robot | Cheek/jaw mechanisms, skin-mould CAD, actuator communication and a four-image gallery | [Project overview](https://zyc-chenli.github.io/projects/biomimetic-face.html) |
+
+The homepage also includes the G1 locomotion simulation component of my summer research, engineering projects, education and awards, independent coursework and technical skills.
+
+[Soil monitoring and automatic irrigation](https://zyc-chenli.github.io/projects/soil-monitor.html) · [Facial robot image gallery](https://zyc-chenli.github.io/projects/biomimetic-face.html#gallery)
 
 ## About this repository
 
